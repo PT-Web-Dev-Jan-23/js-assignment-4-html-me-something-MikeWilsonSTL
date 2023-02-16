@@ -1,6 +1,12 @@
 body {
     margin: 8px;
     display: block;
+    background-color: #181a1b;
+    color: #d8d4cf;
+}
+
+header{
+    text-align: center;
 }
 
 p {
@@ -10,11 +16,15 @@ p {
 .img{
     height: auto;
     max-width: 50%;
+    filter: drop-shadow(10px 10px 5px black);
+    position: relative;
 }
 
 #copyright{
     font-style: italic;
     font-weight: lighter;
+    z-index: 1;
+    position: relative;
 }
 
 #mainHeading{
