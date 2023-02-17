@@ -34,3 +34,9 @@ p {
 .funParagraph{
     color: green;
 }
+
+footer{
+    text-align: center;
+    font-weight: lighter;
+    font-style: italic;
+}
