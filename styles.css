@@ -1,1 +1,60 @@
-/* Write your CSS here! */
+body {
+    margin: 8px;
+    display: block;
+    background-color: #181a1b;
+    color: #d8d4cf;
+}
+
+header{
+    text-align: center;
+}
+
+p {
+    font-size: large;
+}
+
+.img{
+    height: auto;
+    max-width: 100%;
+    filter: drop-shadow(10px 10px 5px black);
+    position: relative;
+}
+
+#copyright{
+    font-style: italic;
+    font-weight: lighter;
+    z-index: 1;
+    position: relative;
+}
+
+#mainHeading{
+    color: red;
+}
+
+.subHeading{
+    font-weight: bold;
+}
+
+.funParagraph{
+    color: green;
+}
+
+footer{
+    text-align: center;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.jumbotron{
+    background-color: #0e0f0f;
+    filter: drop-shadow(0px 10px 5px black);
+    position: relative;
+}
+
+blockquote {
+    border: 5px solid #0e0f0f;
+}
+
+.form-group {
+    margin-bottom: 45px;
+}
